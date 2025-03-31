@@ -1,0 +1,13 @@
+.Central{
+    text-align: center;
+    margin: 0%;
+}
+.logofia{
+    float:left;
+}
+.logoformula{
+    float: right;
+}
+table{
+    border-collapse: collapse;
+}
