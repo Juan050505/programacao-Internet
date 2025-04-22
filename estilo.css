@@ -1,13 +1,38 @@
-.Central{
-    text-align: center;
-    margin: 0%;
-}
-.logofia{
-    float:left;
-}
-.logoformula{
-    float: right;
-}
-table{
-    border-collapse: collapse;
-}
+.tituloteste{
+    color: white;
+    background-color: #0D5188;
+    font-family: Arial, Helvetica, sans-serif 12p;
+    
+   }
+   
+   .teste{
+   color:black;
+   background-color:#66C5E3;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .numeros{
+   color:black;
+   background-color:#C0C0C0;
+   text-align: center;
+   }
+   
+   table{
+       border-collapse:color white;
+       border:2px solid#C7E7F3;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 0 auto;
+       width: 600px;
+    
+   }
+   
+   .medio{
+   color:#0D5188;
+   background-color:#C7E7F3;
+   }
+   
+   .number{
+   color:black;
+   background-color:#C7E7F3;
+   text-align: center;
+   }
