@@ -1,0 +1,35 @@
+.segunda{
+    border: 2px solid silver;
+    border-collapse: collapse;
+    margin: 0%;
+}
+
+.azulmarinho{
+    color: #003366;
+}
+
+.azulceleste{
+    color: #1398be;
+}
+
+.laranja{
+    color: #de9800;
+}
+
+.cinza{
+    color: #cccccc;
+}
+
+.vermelho{
+    color: #C91B04;
+}
+
+tr{
+    border: 2px solid silver;
+    border-collapse: collapse;
+}
+
+.coluna{
+    color: #666666;
+    padding-right: 90px;
+}
