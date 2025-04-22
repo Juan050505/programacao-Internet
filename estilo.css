@@ -1,35 +1,60 @@
-.segunda{
-    border: 2px solid silver;
-    border-collapse: collapse;
-    margin: 0%;
+div{
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.azulmarinho{
-    color: #003366;
+.divAlignCenter{
+    background-color: purple;
+    margin: 0 auto;
 }
 
-.azulceleste{
-    color: #1398be;
+.divSticky{
+    background-color: brown;
+    position:sticky ;
+    top:100px;
+    left: 400px;
 }
 
-.laranja{
-    color: #de9800;
+.divRelative{
+    background-color: green;
+    position: relative;
+    top: 120px;
+    left: 800px;
+
 }
 
-.cinza{
-    color: #cccccc;
+.divFixed{
+    background-color: yellow;
+    position: fixed;
+    top: 200px;
+    left: 200px;
 }
 
-.vermelho{
-    color: #C91B04;
+.divSatic{
+    background-color: blue;
+    position: static;
+    top: 300px;
+    left: 300px;
 }
 
-tr{
-    border: 2px solid silver;
-    border-collapse: collapse;
+.divAbsolute{
+    background-color: moccasin;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+
 }
 
-.coluna{
-    color: #666666;
-    padding-right: 90px;
+.divAlignleft{
+    background-color: aquamarine;
+    float: left;
+
+
+}
+
+.divAignRight{
+    background-color: orange;
+    float: right;
 }
