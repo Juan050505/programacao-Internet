@@ -1,0 +1,13 @@
+body{
+    background-image: url(imagem/ChatGPT\ Image\ 23\ de\ abr.\ de\ 2025\,\ 11_50_47.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+strong{
+    color: #ffd700;
+}
