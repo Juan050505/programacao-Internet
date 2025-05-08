@@ -1,15 +1,862 @@
-<html>
-    <head>
-        <title>Atividade JavaScript 2</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="content1">
+    <div class="background active"></div>
+    <div class="background"></div>
+    <div class="background"></div>
+    <div class="background"></div>
+    <div class="background"></div>
+    <div class="background"></div>
+    <div class="background"></div>
 
-      <body>
-           <h2>Exercicio 1 - de Somar numeros</h2>
-           <input id="inputNum1" type="text">
-           <input id="inputNum2" type="text">
-           <button id="btSomar">somar</button>
-           <h3 id="h3Resultado">
-     </body>
-     <script src="script.js"></script>
+    <div class="content">
+      <div class="wrapper">
+        <div class="nav">
+          <div class="logo"><img src="./assets/img/logo.png" alt="" /></div>
+          <ul>
+            <li><a href="#" class="navlink active">Inicio</a></li>
+            <li><a href="#" class="navlink">Bosses</a></li>
+            <li><a href="#" class="navlink">Itens</a></li>
+            <li><a href="#" class="navlink">NPCS</a></li>
+            <li><a href="#" class="navlink">Conquistas</a></li>
+            <li><a href="#" class="navlink">Caveiras</a></li>
+            <li><a href="#" class="navlink">Fases</a></li>
+          </ul>
+        </div>
+
+        <div class="maincontent active"><h1>a</h1></div>
+        <div class="maincontent"><h1>b</h1></div>
+        <div class="maincontent"><h1>c</h1></div>
+        <div class="maincontent npcs">
+          <div class="infoNPC">
+            <h1>Witch</h1>
+            <div>
+              <img src="assets/img/witch.png" width="150px" height="200px" />
+            </div>
+            <div class="infoNPC1">
+              <h2 class="if">Informações</h2>
+              <p>Localização: Vila do Rei Demônio</p>
+              <p>
+                Descrição: A Bruxa é uma mestra metamorfa da magia, que serve ao
+                Rei Demônio e é instrumental em guiar Skul para a grandeza. Ela
+                fornece o Item Scroll e também fornece acesso à Árvore de
+                Habilidades de Traços. Traços podem ser aprimorados com Quartzo
+                Escuro.
+              </p>
+            </div>
+          </div>
+          <div class="infoNPC">
+            <h1>Ogro Mascate</h1>
+            <div>
+              <img src="assets/img/witch.png" width="150px" height="200px" />
+            </div>
+            <div class="infoNPC1">
+              <h2 class="if">Informações</h2>
+              <p>Localização: Vila do Rei Demônio</p>
+              <p>
+                Descrição: A Bruxa é uma mestra metamorfa da magia, que serve ao
+                Rei Demônio e é instrumental em guiar Skul para a grandeza. Ela
+                fornece o Item Scroll e também fornece acesso à Árvore de
+                Habilidades de Traços. Traços podem ser aprimorados com Quartzo
+                Escuro.
+              </p>
+            </div>
+          </div>
+          <div class="infoNPC">
+            <h1>Witch</h1>
+            <div>
+              <img src="assets/img/witch.png" width="150px" height="200px" />
+            </div>
+            <div class="infoNPC1">
+              <h2 class="if">Informações</h2>
+              <p>Localização: Vila do Rei Demônio</p>
+              <p>
+                Descrição: A Bruxa é uma mestra metamorfa da magia, que serve ao
+                Rei Demônio e é instrumental em guiar Skul para a grandeza. Ela
+                fornece o Item Scroll e também fornece acesso à Árvore de
+                Habilidades de Traços. Traços podem ser aprimorados com Quartzo
+                Escuro.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .container {
+          max-width: 800px;
+          margin: auto;
+        }
+      
+        .conquista {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          margin-bottom: 15px;
+        }
+      
+        .ConquistasSkull {
+          width: 64px;
+          height: auto;
+          border-radius: 8px;
+        }
+      
+        .descricao {
+          line-height: 1.4;
+        }
+      
+        abbr {
+          text-decoration: underline dotted;
+          cursor: help;
+          font-style: italic;
+          margin-left: 5px;
+        }
+       </style>
+
+         <div class="maincontent">
+       <div class="container">
+       <h1>Lista de Conquistas - Skul: The Hero Slayer</h1>
+       <hr><br>
+
+       <div class="conquista">
+        <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/skull 1.jpeg" class="ConquistasSkull">
+        <div class="descricao"><strong>1. A lenda começa</strong>: Regressar depois de experimentar a morte
+          <abbr title="Complete a missão inicial para desbloquear esta conquista.">Dica</abbr>
+        </div>
+      </div>
+
+           <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/skull 2.jpeg" class="ConquistasSkull">
+            <div class="descricao"><strong>2. Boas-vindas aos novatos</strong>: Jogar em Modo novato
+              <abbr title="Explore diferentes áreas do mapa para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+
+        <div class="conquista">
+      <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/skull 3.jpeg" class="ConquistasSkull">
+      <div class="descricao"><strong>3. Focar!</strong>: Morrer de uma armadilha
+        <abbr title="Participe de uma batalha e vença seu primeiro inimigo para desbloquear esta conquista.">Dica</abbr>
+      </div>
+    </div>
+
+        <div class="conquista">
+      <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/skull 4.jpeg" class="ConquistasSkull">
+      <div class="descricao"><strong>4. Ir para o Início...</strong>: Resgatar o Rei Demônio eregressar ao Castelo do Rei Demônio
+          <abbr title="Complete uma missão que envolva sobrevivência para desbloquear esta conquista.">Dica</abbr>"
+         </div>
+        </div>
+
+          <div class="conquista">
+       <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/skull 5.jpeg" class="ConquistasSkull">
+      <div class="descricao"><strong>5. Planos de restauro do Castelo</strong>: Restaurar o
+          <abbr title="Domine um animal selvagem durante suas aventuras para desbloquear esta conquista.">Dica</abbr>
+        </div>
+        </div>
         
+          <div class="conquista">
+        <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/6 skull.jpeg" class="ConquistasSkull">
+      <div class="descricao"><strong>6. Ent ancião resgatado</strong>: Derrotar o ent ancião, Yggdrasil
+          <abbr title="Explore locais escondidos para encontrar itens raros e desbloquear esta conquista.">Dica</abbr>
+        </div>
+      </div>
+      
+         <div class="conquista">
+       <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/7 skull.jpeg" class="ConquistasSkull">
+      <div class="descricao"><strong>7. Movimentos rápidos</strong>: Derrotar Yggdrasil sem ser
+        atingido
+          <abbr title="Complete um total de 10 missões para desbloquear esta conquista.">Dica</abbr>
+      </div>
+    </div>
+    
+    <div class="conquista">
+      <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/8 skull.jpeg" class="ConquistasSkull">
+      <div class="descricao"><strong>8. O fim dos Cavaleiros da Crina Dourada</strong>: Derrotar os ajudantes dos Cavaleiros da Crina Dourada, as Irmãs Leiana
+        <abbr title="Aprenda uma nova habilidade em uma missão específica para desbloquear esta conquista.">Dica</abbr>
+      </div>
+    </div>
+    
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/9 skull.jpeg" class="ConquistasSkull">
+            <div class="descricao"><strong>9. Mestre da velocidade</strong>: Derrotar as Irmãs Leiana sem ser atingido
+              <abbr title="Evite todos os ataques enquanto luta contra as Irmãs.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/10 skull.jpeg" class="ConquistasSkull">
+            <div class="descricao"><strong>10. Deusa falsa, desaparecer</strong>: Derrotar a deusa distorcida, Chimaera
+              <abbr title="Enfrente Chimaera e vença a batalha.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/11 skull.jpeg" class="ConquistasSkull">
+            <div class="descricao"><strong>11. Poder mortal</strong>: Derrotar Chimaera sem ser atingido
+              <abbr title="Use esquivas e ataques rápidos para evitar danos.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/12 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>12. A queda da Ordem da Leónia</strong>: Derrote o arcebispo da Ordem da Leónia, Santa Joana II
+              <abbr title="Enfrente Santa Joana II e vença a batalha.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/13 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>13. O Levitador</strong>: Derrote Santa Joana II sem ser atingido
+              <abbr title="Evite todos os ataques enquanto luta contra Santa Joana II.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/14 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>14. A Batalha Final do Primeiro Herói</strong>: Derrote a Espada de Carleon, o Primeiro Herói
+              <abbr title="Enfrente o Primeiro Herói e vença a batalha.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/15 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>15. O Deus da Batalha</strong>: Derrotar o Primeiro Herói sem ser atingido
+              <abbr title="Use esquivas e ataques rápidos para evitar danos.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/16 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>16. O Assassino de heróis</strong>: Matar 100 aventureiros
+              <abbr title="Participe de batalhas e elimine 100 aventureiros.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/17 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>17. O Rei Esqueleto</strong>: Derrotar o Primeiro Herói como Pequeno Osso
+              <abbr title="Use a forma de Pequeno Osso para derrotar o Primeiro Herói.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/18 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>18. A sangue frio</strong>: Derrotar o Primeiro Herói sem salvar a etapa NPC
+              <abbr title="Complete a batalha sem salvar nenhum NPC.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/19 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>19. O Lustre dos anões</strong>: Alcançar o topo do lustre no Castelo do Rei Demônio
+              <abbr title="Use plataformas e saltos para chegar ao topo do lustre.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/20 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>20. Regras de etiqueta</strong>: Alcançar o topo do trono no Castelo do Rei Demônio
+              <abbr title="Suba até o trono e interaja com ele.">Dica</abbr>
+            </div>
+          </div>
+
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/21 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>21. O que devo comprar?</strong>: Permanecer no mercado negro por 1 minuto
+              <abbr title="Fique no mercado negro sem sair por 1 minuto.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/22 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>22. Cérebro em aceleração total</strong>: Permanecer no mercado negro por 5 minutos
+              <abbr title="Fique no mercado negro sem sair por 5 minutos.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/23 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>23. Tagarela demais</strong>: Continue falando com Sem-cabeça
+              <abbr title="Interaja repetidamente com Sem-cabeça até desbloquear a conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/24 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>24. Gerenciamento de inventário</strong>: Continuar reabastecendo do colecionador
+              <abbr title="Compre itens do colecionador várias vezes para desbloquear a conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/25 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>25. Um nome honroso</strong>: Adquirir Capitão da Guarda Real
+              <abbr title="Complete as missões necessárias para se tornar Capitão da Guarda.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/26 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>26. Carga! Outra vez! E de novo!</strong>: Adquirir Capitão de vanguarda
+              <abbr title="Participe de batalhas e complete as missões para se tornar Capitão de vanguarda.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/27 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>27. O melhor ataque é a defesa</strong>: Adquirir Capitão defensor
+              <abbr title="Complete as missões de defesa para se tornar Capitão defensor.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/28 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>28. Guardião da Natureza</strong>: Adquirir Caveira de Ent ancião
+              <abbr title="Derrote o Ent ancião e colete sua caveira.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/29 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>29. O maior lobisomem</strong>: Adquirir Lobisomem eterno
+              <abbr title="Complete a missão relacionada ao Lobisomem para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/30 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>30. O Rei do beco</strong>: Adquirir Desperado
+              <abbr title="Participe de eventos de combate nas ruas para se tornar Desperado.">Dica</abbr>
+            </div>
+          </div>
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/31 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>31. Fanático de guerra</strong>: Adquirir Comandante de Carleon
+              <abbr title="Complete as missões de combate para se tornar Comandante de Carleon.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/32 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>32. Gárgula do Castelo do Rei Demônio</strong>: Adquirir Gárgula de ouro
+              <abbr title="Colete a Gárgula de ouro em uma missão específica.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/33 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>33. Começar o show</strong>: Adquirir Joker
+              <abbr title="Complete a missão relacionada ao Joker para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/34 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>34. Tamanho dominante</strong>: Adquirir Ghouuuuuuul
+              <abbr title="Derrote o Ghouuuuuuul em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/35 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>35. Instintos de motociclista</strong>: Adquirir Pesadelo
+              <abbr title="Complete a missão relacionada ao Pesadelo para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/36 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>36. O Rei do Labirinto regressa</strong>: Adquirir Minotauro III
+              <abbr title="Derrote o Minotauro III em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/37 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>37. Especialista em armas</strong>: Adquirir Múmia eterna
+              <abbr title="Complete a missão relacionada à Múmia eterna para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/38 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>38. A personificação do frio</strong>: Adquirir Espírito congelado
+              <abbr title="Derrote o Espírito congelado em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/39 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>39. Explosões são uma obra de arte</strong>: Adquirir Especialista em demolições
+              <abbr title="Complete missões que envolvem explosões para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/40 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>40. A Onda furiosa</strong>: Adquirir Poseidon
+              <abbr title="Complete a missão relacionada a Poseidon para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/41 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>41. Um apetite interminável por investigação</strong>: Adquirir Alquimista negro
+              <abbr title="Complete as missões de alquimia para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/42 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>42. Grande demais para ser chamado de espada</strong>: Adquirir Senhor da guerra
+              <abbr title="Participe de batalhas e complete as missões para se tornar Senhor da guerra.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/43 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>43. Me louve!</strong>: Adquirir Magnifico
+              <abbr title="Complete a missão relacionada ao Magnifico para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/44 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>44. Arma final: Arco</strong>: Adquirir Atirador
+              <abbr title="Complete a missão relacionada ao Atirador para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/45 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>45. Uma entrada elegante</strong>: Adquirir Super estrela de rock
+              <abbr title="Complete a missão relacionada à Super estrela de rock para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/46 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>46. O Ninja lendário</strong>: Adquirir Mestre ninja
+              <abbr title="Complete as missões de ninja para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/47 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>47. O Cavaleira de armadura escura</strong>: Adquirir Vingador negro
+              <abbr title="Derrote o Vingador negro em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/48 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>48. A partir do Abismo profundo</strong>: Adquirir Monarca abissal
+              <abbr title="Complete a missão relacionada ao Monarca abissal para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/49 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>49. Alma ardente</strong>: Adquirir Cavaleiro de alma
+              <abbr title="Complete a missão relacionada ao Monarca abissal para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/50 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>50. O Pacto inquebrável</strong>: Adquirir Berserker demônio
+              <abbr title="Derrote o Guerreiro eterno em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/51 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>51. O Mistério final das artes</strong>: Adquirir Neo Samurai
+              <abbr title="Complete a missão relacionada ao Cronomante para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/52 skull .png" class="ConquistasSkull">
+            <div class="descricao"><strong>52. Instintos destrutivos</strong>: Adquirir Destruidor
+              <abbr title="Derrote a Sombra eterna em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/53 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>53. Poder selado</strong>: Adquirir Archlich
+              <abbr title="Complete a missão relacionada ao Fogo eterno para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/54 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>54. O pisão sobrenatural de Dokkaebi</strong>: Adquirir Yaksha
+              <abbr title="Derrote o Gelo eterno em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/55 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>55. A lenda da Arena</strong>: Adquirir campeão
+              <abbr title="Complete a missão relacionada ao Vento eterno para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/56 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>56. O soberano do Submundo</strong>: Adquirir Ceifador
+              <abbr title="Derrote o Soberano do Submundo em uma batalha para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/57 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>57. Quero jogar um jogo comigo?</strong>: Adquirir jogador
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/58 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>58. Indefinição fantasmagórica</strong>: Adquirir o Suserano
+              <abbr title="Para adquirir esta conquista, você precisa encontrar e derrotar o Suserano. Certifique-se de explorar bem cada área para encontrar o encontro.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/59 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>59. Dia de todas as almas</strong>: Adquirir o Salvador
+              <abbr title="Para obter essa conquista, você deve adquirir o Salvador. Fique atento às missões secundárias que podem levá-lo a esse personagem.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/60 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>60. Degolado</strong>: Adquirir o Rei
+              <abbr title="Para desbloquear esta conquista, é necessário derrotar o Rei. Treine suas habilidades e esteja preparado para enfrentar esse desafio.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/61 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>61. Você tem medo da morte?</strong>: Adquirir o Davy Jones
+              <abbr title="Para conseguir esta conquista, é preciso encontrar e derrotar Davy Jones. Explore as regiões aquáticas do jogo, onde ele frequentemente aparece.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/62 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>62. Mago Branco</strong>: Adquirir o Erudito
+              <abbr title="Para conquistar essa habilidade, deve-se adquirir o Erudito. Procure por áreas onde o conhecimento e magia são predominantes.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/63 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>63. Lado Sombrio de Harmonia</strong>: Entre no Espelho Sombrio e vá para o Lado Sombrio de Harmonia
+              <abbr title="Entre no Espelho. Explore todos os ambientes e procure por interações ocultas que podem levar a essa conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/64 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>64. Novo início</strong>: Volte após morrer no Espelho Sombrio
+              <abbr title="Volte após morrer no Espelho Sombrio. Fique atento às mecânicas de morte e utilize a habilidade de refletir ataques para encontrar um novo caminho.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/65 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>65. Melhor condição</strong>: Tenha 4 habilidades sombrias no inventário
+              <abbr title="Tenha 4 habilidades sombrias no seu arsenal. Priorize habilidades que se complementam entre si para maximizar seu desempenho.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/66 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>66. Amaldiçoadas</strong>: Tenha 4 habilidades sombrias amaldiçoadas ao mesmo tempo
+              <abbr title="Foque em adquirir e melhorar 4 habilidades sombrias específicas. Explore diferentes combinações para ver quais se adequam ao seu estilo de jogo.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/67 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>67. Odiar o pecador, amar o pecado</strong>: Tenha a inscrição “Pecado”
+              <abbr title="Para essa conquista, será essencial obter a inscrição necessária. Verifique missões ou eventos no jogo que podem desbloquear essa inscrição.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/68 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>68. Coração das trevas</strong>: Adquira 100 corações de quartzo negro
+              <abbr title="Acumule 100 corações de trevas. Participe de batalhas e colete o máximo possível em cada encontro. Procure locais que oferecem maior quantidade de corações.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/69 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>69. Agouro terrível</strong>: Tenha a inscrição “Agouro”
+              <abbr title="Explore as diversas opções de previsão ou exploração no jogo que possam desbloquear esta conquista. Experimente diferentes caminhos para ver quais oferecem melhores recompensas.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/70 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>70. Convidado especial</strong>: Compre itens especiais de coletores
+              <abbr title="Compre itens especiais de eventos ou de NPCs específicos. Certifique-se de participar de todas as promoções ou eventos temporários para adquirir os itens necessários.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/71 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>71. Tudo ou nada</strong>: Use todas as chances de reabastecer com quartzo negro no Mercado Clandestino
+              <abbr title="Utilize todas as chances de reabastecer suas energias ou recursos. Planeje suas jogadas de forma a maximizar cada chance.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/72 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>72. Opção de carreira acertada</strong>: Adquira 2 inscrições adicionais do Mercado Clandestino
+              <abbr title="Explore as áreas iniciais do jogo para garantir que você colete todas as inscrições disponíveis. Interaja com NPCs e complete missões secundárias.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/73 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>73. Proteção do Deus-aranha</strong>: Oferte 10 ossos no altar do clã Arachne em uma sessão
+              <abbr title="Junte ossos derrotando inimigos. Visite o altar frequentemente para fazer as ofertas necessárias. Fique atento a locais com maior concentração de inimigos.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/74 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>74. Habilidade sombria</strong>: Adquira todas as habilidades sombrias
+              <abbr title="Complete desafios e obtenha as habilidades em diferentes locais. Considere jogar em diferentes modos para desbloquear todas as habilidades disponíveis.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/75 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>75. O mais forte</strong>: Derrote o Primeiro Herói do Espelho Sombrio sem sofrer dano
+              <abbr title="Prepare-se bem com equipamentos melhores e habilidades adequadas. Estude os padrões de ataque do boss para encontrar uma estratégia eficiente.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/76 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>76. Mundo corrompido</strong>: Primeiro Espelho Sombrio destruído
+              <abbr title="Explore o ambiente e complete as missões relacionadas ao Espelho Sombrio. Mantenha-se atento a eventos que podem levar a esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/77 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>77. Uma aventura valiosa</strong>: Espelho Sombrio nível 1 destruído
+              <abbr title="Progrida através do jogo e aproveite as mecânicas do Espelho Sombrio. Oculte-se e explore com cautela para não ser derrotado facilmente.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/78 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>78. Ato de coragem</strong>: Espelho Sombrio nível 2 destruído
+              <abbr title="Aumente seu nível e prepare-se para enfrentar inimigos mais fortes. Utilize poções e itens estratégicos para ajudar na batalha.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/79 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>79. Resultado dos seus esforços</strong>: Espelho Sombrio nível 3 destruído
+              <abbr title="Para conseguir esta conquista, complete várias missões e batalhas, acumulando experiência e recursos que desbloqueiam o Espelho Sombrio.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/80 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>80. Autoconfiança</strong>: Espelho Sombrio nível 4 destruído
+              <abbr title="Destrua o Espelho Sombrio nível 4. Concentre-se em coletar itens de melhoria e utilize suas habilidades de forma eficaz.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/81 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>81. Energia e perseverança</strong>: Espelho Sombrio nível 5 destruído
+              <abbr title="Melhore suas habilidades através de upgrades e pratique os padrões de ataque dos inimigos para aumentar suas chances de sobrevivência durante o combate.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/82 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>82. Espírito de desafio</strong>: Espelho Sombrio nível 6 destruído
+              <abbr title="Considere formar uma equipe ou cooperar com outros jogadores para facilitar a luta contra o Espelho Sombrio e utilize armadilhas ao seu favor.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/83 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>83. Ato surpreendente</strong>: Espelho Sombrio nível 7 destruído
+              <abbr title="Esteja preparado para a batalha mais difícil. Utilize todas as suas habilidades ao máximo e explore cada canto do mapa para encontrar itens úteis.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/84 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>84. Sucesso fenomenal</strong>: Espelho Sombrio nível 8 destruído
+              <abbr title="Complete desafios usando diferentes personagens para melhorar suas habilidades.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/85 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>85. Grande conquista</strong>: Espelho Sombrio nível 9 destruído
+              <abbr title="Aceite missões secundárias para melhorar seu inventário.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/86 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>86. Nada é impossível</strong>: Espelho Sombrio nível 10 destruído
+              <abbr title="Complete o desafio final do Espelho Sombrio para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/87 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>87. Começa a Guerra</strong>: Chegue ao capítulo 6 pela primeira vez
+              <abbr title="Siga todos os caminhos no capítulo 5 para garantir que nenhum detalhe seja perdido.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/88 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>88. O Poder da Ciência!</strong>: Use o sistema de transporte de alta velocidade do Engenheiro Anão
+              <abbr title="Use o sistema de transporte para acessar áreas anteriores e descobrir segredos.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/89 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>89. Ajuda da Bruxa</strong>: Modifique 5 inscrições diferentes
+              <abbr title="Explore diferentes áreas para encontrar inscrições e utilize recursos para modificá-las.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/90 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>90. A Verdadeira Paz</strong>: Derrote Alexander, o Imperador de Carleon
+              <abbr title="Prepare-se bem, utilize itens para aumentar seu dano e evite os ataques previsíveis dele.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/91 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>91. Existência Oculta</strong>: Encontre seu primeiro quartzo negro enriquecido
+              <abbr title="Procure em áreas menos exploradas, utilize suas habilidades para acessar locais ocultos.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/92 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>92. Tanque de Tecnologia Negra</strong>: Encontre o ser misterioso
+              <abbr title="Siga as pistas no jogo para descobrir onde o ser pode estar escondido.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/93 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>93. A Verdadeira Salvação</strong>: Derrote Skul, o Esqueleto Sombrio
+              <abbr title="Estude os padrões de ataque de Skul e use habilidades que o danifiquem rapidamente.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/94 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>94. Especialista em Ossos</strong>: Adquira Fragmentos do Skul 3 vezes
+              <abbr title="Derrote inimigos específicos que soltam fragmentos e colete-os regularmente.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/95 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>95. Salão dos Deuses</strong>: Chegue ao Salão dos Deuses
+              <abbr title="Explore bem os níveis anteriores e utilize habilidades de salto para acessar áreas elevadas.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/96 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>96. Deus do Trovão</strong>: Adquira o Senhor do Trovão
+              <abbr title="Procure por inimigos específicos que soltam a habilidade do Trovão. Uma abordagem focada em áreas com muitos inimigos pode ajudar.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/97 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>97. Esta Noite, Jantaremos no Inferno!</strong>: Adquira o Semideus
+              <abbr title="Derrote chefes que estão localizados em regiões mais difíceis para desbloquear esta conquista.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/98 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>98. Força de 10.000 Homens</strong>: Adquira o Deus da Guerra
+              <abbr title="Use diferentes personagens e habilidades combinadas para superar desafios de combate.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/99 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>99. Herói do Céu da Noite</strong>: Adquira o Absoluto
+              <abbr title="Concentre-se em desafios noturnos e complete missões que aparecem somente à noite para aumentar suas chances.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/100 skull.png" class="ConquistasSkull">
+            <div class="descricao"><strong>100. Espada da Vitória Prometida</strong>: Adquira o Rei Desconhecido
+              <abbr title="Para conseguir a espada, você pode precisar completar uma sequência de missões específicas envolvendo chefes.">Dica</abbr>
+            </div>
+          </div>
+          
+          <div class="conquista">
+            <img src="imagem Conquistas Skull/WhatsApp Unknown 2025-05-01 at 13.09.10/102.png" class="ConquistasSkull">
+            <div class="descricao"><strong>101. Diga Meu Nome</strong>: Adquira o Dominador
+                <abbr title="Explore as quests secundárias e interaja com NPCs que podem oferecer informações ou itens necessários.">Dica</abbr>
+            </div>
+        </div>
+
+      </div>
+      <div class="maincontent"><h1>b</h1></div>
+      <div class="maincontent"><h1>c</h1></div>
+    </div>
+  </body>
+  <script>
+    const tabs = document.querySelectorAll(".navlink");
+    const contents = document.querySelectorAll(".maincontent");
+    const background = document.querySelectorAll(".background");
+    tabs.forEach((tab, idx, bdy) => {
+      tab.addEventListener("click", () => {
+        document.querySelector(".navlink.active").classList.remove("active");
+        tab.classList.add("active");
+
+        document
+          .querySelector(".maincontent.active")
+          .classList.remove("active");
+        contents[idx].classList.add("active");
+
+        document.querySelector(".background.active").classList.remove("active");
+        background[idx].classList.add("active");
+      });
+    });
+  </script>
 </html>
